@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace ConferenceRoom.Application;
 
-public class BookingService
+public class BookingService : IBookingService
 {
     private readonly BookingDbContext _db;
 

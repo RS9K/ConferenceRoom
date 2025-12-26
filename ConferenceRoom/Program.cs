@@ -19,7 +19,7 @@ services.AddDbContext<BookingDbContext>(options =>
     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
 // === SERVICES ===
-services.AddScoped<BookingService>();
+services.AddScoped<IBookingService, BookingService>();
 services.AddScoped<MainMenu>();
 services.AddScoped<BookingCommands>();
 services.AddScoped<InputReader>();

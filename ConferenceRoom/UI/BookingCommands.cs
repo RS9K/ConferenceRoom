@@ -9,7 +9,7 @@ namespace ConferenceRoom.UI;
 
 public class BookingCommands
 {
-    private readonly BookingService _service;
+    private readonly IBookingService _service;
     private readonly InputReader _input;
     private readonly OutputWriter _output;
 
@@ -25,7 +25,7 @@ public class BookingCommands
     };
 
     public BookingCommands(
-        BookingService service,
+        IBookingService service,
         InputReader input,
         OutputWriter output)
     {
