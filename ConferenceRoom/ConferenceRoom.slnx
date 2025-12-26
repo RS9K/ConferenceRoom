@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="../ConferenceRoom.Application/ConferenceRoom.Application.csproj" />
+  <Project Path="../ConferenceRoom.Domain/ConferenceRoom.Domain.csproj" />
+  <Project Path="../ConferenceRoom.Infrastructure/ConferenceRoom.Infrastructure.csproj" />
+  <Project Path="../ConferenceRoom.Test.Integration/ConferenceRoom.Test.Integration.csproj" />
+  <Project Path="../ConferenceRoom.Test.Unit/ConferenceRoom.Test.Unit.csproj" />
+  <Project Path="ConferenceRoom.csproj" />
+</Solution>
